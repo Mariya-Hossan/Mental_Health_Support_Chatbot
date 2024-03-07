@@ -1,0 +1,304 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, I'm here to chat with you. How are you feeling today?",
+          "Hey! How's your day going? I'm here if you need someone to talk to.",
+          "Hi! I'm here if you need support or just want to chat. How are you doing?"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "Take care! Remember, I'm here if you need someone to talk to.",
+          "Goodbye! Feel free to reach out anytime if you need support.",
+          "See you later. Remember, you're not alone in this. Take care!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "You're welcome! Remember, I'm always here to help and support you.",
+          "Anytime! I'm glad I could be of assistance. Take care!",
+          "Glad I could help. Remember, you're not alone. Reach out if you need anything else."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "support",
+        "patterns": [
+          "I'm feeling down",
+          "I'm feeling sad",
+          "I'm feeling hopeless",
+          "I'm feeling worthless",
+          "I'm feeling alone",
+          "I'm depressed",
+          "I want to end it all",
+          "I want to die",
+          "I'm having suicidal thoughts",
+          "I can't go on anymore"
+        ],
+        "responses": [
+          "I'm here for you. It's okay to feel this way, but it's important to reach out for help. You're not alone.",
+          "Feeling like this can be overwhelming, but please remember that there are people who care about you and want to support you.",
+          "You're not alone in this. There are people who understand what you're going through and are here to help. It's okay to ask for support.",
+          "Please remember that your life is valuable, and there is hope even in the darkest moments. Let's take it one step at a time together."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "encouragement",
+        "patterns": [
+          "I need some encouragement",
+          "I'm struggling to stay positive",
+          "I feel like giving up",
+          "I can't find the strength to keep going",
+          "I'm losing hope"
+        ],
+        "responses": [
+          "It's okay to struggle. Remember, every small step forward is a victory. You're stronger than you think.",
+          "You've overcome challenges before, and you can do it again. Take a moment to breathe and believe in yourself.",
+          "You're capable of so much more than you realize. You have the strength within you to face this challenge.",
+          "Even on the toughest days, remember that you're not alone. We're in this together, and I believe in you."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "self-care",
+        "patterns": [
+          "How can I take care of myself?",
+          "What are some self-care tips?",
+          "I'm feeling overwhelmed. What should I do?"
+        ],
+        "responses": [
+          "Self-care is important for your well-being. Try taking a break, practicing deep breathing, or doing something you enjoy.",
+          "Self-care can be simple. Remember to prioritize rest, hydration, healthy meals, and activities that bring you joy.",
+          "When you're feeling overwhelmed, it's okay to take a step back and focus on your needs. Remember to be gentle with yourself."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "resources",
+        "patterns": [
+          "Where can I find help?",
+          "What should I do if I'm feeling suicidal?",
+          "Can you recommend any resources for depression?",
+          "How do I get help for depression?"
+        ],
+        "responses": [
+          "If you're in crisis, please call a crisis hotline or seek immediate help from a healthcare provider. You're not alone, and support is available.",
+          "There are many resources available online and in your community. Consider reaching out to a therapist, counselor, or support group for guidance and support.",
+          "You can find resources for depression, including helplines, therapy options, and self-help tools, through reputable mental health organizations and websites. Remember, it's okay to ask for help."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "positive_affirmations",
+        "patterns": [
+          "I need some positivity",
+          "Can you give me some affirmations?",
+          "I'm struggling to stay positive"
+        ],
+        "responses": [
+          "You are worthy of love and kindness, just as you are.",
+          "You have the strength to overcome challenges and create a brighter future for yourself.",
+          "You are not defined by your struggles. You are resilient and capable of growth.",
+          "You are deserving of happiness and inner peace. Believe in your ability to find joy in each moment."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "gratitude",
+        "patterns": [
+          "What are some things I can be grateful for?",
+          "How can I practice gratitude?",
+          "I'm feeling overwhelmed. How can I shift my focus to gratitude?"
+        ],
+        "responses": [
+          "Practicing gratitude can help shift your perspective and cultivate positivity. Take a moment to appreciate the small joys and blessings in your life.",
+          "You can practice gratitude by keeping a gratitude journal, reflecting on moments of joy and connection, or expressing appreciation to others.",
+          "Even in challenging times, there are things to be grateful for. Focus on the present moment and find gratitude in the simple pleasures of life."
+        ],
+        "context": [""]
+
+      },
+      {
+        "tag": "loneliness",
+        "patterns": [
+          "I feel lonely",
+          "I don't have anyone to talk to",
+          "I feel isolated"
+        ],
+        "responses": [
+          "Loneliness can be difficult, but remember that you're not alone. Reach out to friends, family, or support groups for connection.",
+          "Feeling lonely is a common experience, especially during challenging times. Consider reaching out to others or engaging in activities that bring you joy.",
+          "You're not alone in feeling lonely. There are people who care about you and want to connect with you. Take the first step by reaching out."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "stress_management",
+        "patterns": [
+          "I'm feeling stressed",
+          "I'm overwhelmed with stress",
+          "How can I manage stress?"
+        ],
+        "responses": [
+          "Stress is a natural response to challenges, but it's important to find healthy ways to cope. Consider practicing relaxation techniques, such as deep breathing or mindfulness.",
+          "Managing stress is essential for your well-being. Try incorporating activities like exercise, meditation, or spending time in nature to help reduce stress.",
+          "Stress management is about finding what works best for you. Experiment with different strategies, such as journaling, listening to music, or spending time with loved ones."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "positive_relationships",
+        "patterns": [
+          "How can I build positive relationships?",
+          "I'm struggling with my relationships"
+        ],
+        "responses": [
+          "Building positive relationships takes time and effort, but it's worth it for your well-being. Focus on open communication, empathy, and mutual respect.",
+          "Healthy relationships are essential for your mental health. Consider seeking support from a therapist or counselor to work through relationship challenges.",
+          "You deserve to have positive and supportive relationships in your life. Surround yourself with people who uplift and encourage you."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "work_life_balance",
+        "patterns": [
+          "I'm feeling overwhelmed with work",
+          "I have trouble balancing work and personal life"
+        ],
+        "responses": [
+          "Finding balance between work and personal life is important for your overall well-being. Set boundaries, prioritize self-care, and seek support when needed.",
+          "Work-life balance can be challenging, but it's essential for preventing burnout and maintaining mental health. Consider delegating tasks, setting realistic goals, and scheduling time for relaxation.",
+          "Remember that your well-being is important. Don't hesitate to speak with your employer or colleagues about your workload and the importance of maintaining balance."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "coping_strategies",
+        "patterns": [
+          "What are some coping strategies for depression?",
+          "How can I cope with negative thoughts?",
+          "I need coping strategies for tough times"
+        ],
+        "responses": [
+          "Coping strategies can help you navigate difficult emotions and situations. Consider practicing self-care, reaching out for support, and engaging in activities that bring you comfort.",
+          "Coping with depression and negative thoughts takes time and effort, but there are strategies that can help. Try mindfulness, cognitive-behavioral techniques, or creative outlets like art or writing.",
+          "Everyone copes differently, so it's important to find strategies that work best for you. Explore different coping techniques and create a toolbox of resources to support your mental health."
+        ],
+        "context": [""]
+        },
+        {
+            "tag": "self_compassion",
+            "patterns": [
+              "I'm struggling to be kind to myself",
+              "I'm too hard on myself",
+              "How can I practice self-compassion?"
+            ],
+            "responses": [
+              "Self-compassion is crucial for your mental health. Treat yourself with the same kindness and understanding you would offer to a friend.",
+              "Practicing self-compassion involves acknowledging your struggles with kindness and understanding, rather than judgment or criticism.",
+              "Remember that you're worthy of self-compassion and forgiveness, even on your toughest days. Be gentle with yourself."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "mindfulness",
+            "patterns": [
+              "How can I practice mindfulness?",
+              "I want to learn mindfulness techniques"
+            ],
+            "responses": [
+              "Mindfulness involves being present in the moment with non-judgmental awareness. You can practice mindfulness through meditation, deep breathing, or simply paying attention to your senses.",
+              "Mindfulness can help reduce stress and increase self-awareness. Start by taking a few moments each day to focus on your breath or observe your thoughts without judgment.",
+              "Incorporate mindfulness into your daily routine by bringing awareness to your activities, such as eating mindfully or going for a mindful walk in nature."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "community_support",
+            "patterns": [
+              "Are there any support groups for depression?",
+              "How can I find community support?",
+              "I want to connect with others who understand"
+            ],
+            "responses": [
+              "Support groups can provide a sense of belonging and understanding. Consider searching online or asking your healthcare provider for local support group options.",
+              "Community support can be invaluable in your journey toward healing. Look for online forums, peer support groups, or community organizations focused on mental health.",
+              "Connecting with others who understand can help you feel less alone. Reach out to organizations or online communities dedicated to supporting individuals with depression."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "therapy_options",
+            "patterns": [
+              "What are my options for therapy?",
+              "How do I find a therapist?",
+              "I'm considering therapy but don't know where to start"
+            ],
+            "responses": [
+              "Therapy can be a valuable resource for addressing depression and improving mental well-being. Start by researching different therapy modalities and finding a therapist who specializes in treating depression.",
+              "You can find therapists through online directories, healthcare provider referrals, or recommendations from friends and family. Consider factors such as therapy approach, credentials, and fit with your needs.",
+              "Therapy offers a safe and supportive space to explore your thoughts, feelings, and experiences. Don't hesitate to reach out to therapists and ask questions about their approach and expertise."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "medication_options",
+            "patterns": [
+              "Should I consider medication for depression?",
+              "What are my options for antidepressants?",
+              "I'm unsure about taking medication for depression"
+            ],
+            "responses": [
+              "Medication can be a helpful option for managing depression, especially when combined with therapy and lifestyle changes. Talk to your healthcare provider to discuss the potential benefits and risks.",
+              "Antidepressants can help alleviate symptoms of depression by rebalancing neurotransmitters in the brain. Your healthcare provider can help you explore different medication options and determine what's best for you.",
+              "Considering medication for depression is a personal decision. It's important to weigh the potential benefits and side effects with your healthcare provider and make an informed choice based on your individual needs."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "crisis_support",
+            "patterns": [
+              "I'm in crisis",
+              "I need immediate help",
+              "I'm considering self-harm"
+            ],
+            "responses": [
+              "If you're in crisis or considering self-harm, please seek immediate help. You can contact a crisis hotline, go to the nearest emergency room, or reach out to a trusted friend or family member for support.",
+              "Your safety is the top priority. Please don't hesitate to reach out for help. There are trained professionals available to support you 24/7.",
+              "You don't have to face this alone. There are resources and people who care about you and want to help. Please reach out for support right away."
+            ],
+            "context": [""]
+          }
+    ]
+  }
+  
